@@ -1,0 +1,55 @@
+
+        body{
+        background-image: url(images/blur_bg.jpg);
+    }
+
+.form{
+    padding:5px;
+    padding: 30px;
+    margin: auto;
+    width: 400px;
+    height: auto;
+    font-weight: 100;
+    font-size: 15px;
+    text-decoration: bold;
+    display: block;
+    border: 2px solid white;
+
+}
+.form input{
+    height: 30px;
+    width:70%;
+    text-align: center;
+    margin: 10px;
+    text-decoration: bold;
+    border-bottom: 2px solid white;
+     box-shadow: 0 10px 10px 0 black;
+}
+.form input:hover{
+    border: 2px solid black;
+    box-shadow: 0 5px 10px 0 blue;
+}
+.form div{
+    display: block;
+    border: 2px solid white;
+    background-color: aqua;
+}
+.form p{
+    color: white;
+    font-family: cursive;
+    font-size: 18px;
+    border:0;
+    border-bottom: 2px solid red;
+    font-style: oblique;
+    font-weight: 300;
+    
+}
+.form input[type=submit]{
+    background: red;
+    height: 30px;;
+    width: 70%;
+    border:0;
+    color: white;
+    margin: 50px;
+    
+}
